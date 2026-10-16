@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["GDG", "DND", "GDG"],
+  "key": {
+    "G": { "item": "minecraft:gold_ingot" },
+    "D": { "item": "minecraft:diamond" },
+    "N": { "item": "minecraft:nether_star" }
+  },
+  "result": { "id": "luckyblockmod:lucky_block", "count": 1 }
+}

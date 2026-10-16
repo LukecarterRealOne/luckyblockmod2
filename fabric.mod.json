@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "luckyblockmod",
+  "version": "${version}",
+  "name": "Lucky Block Item",
+  "description": "A lucky block item with random VFX-packed abilities, including the Yellow Omega Beam.",
+  "authors": ["You"],
+  "license": "MIT",
+  "icon": "assets/luckyblockmod/icon.png",
+  "environment": "*",
+  "entrypoints": { "main": ["com.lucky.mod.LuckyBlockMod"],
+    "client": ["com.lucky.mod.LuckyBlockClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
